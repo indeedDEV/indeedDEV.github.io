@@ -32,9 +32,11 @@ h2 {
 }
 
 h3 {
+  display: inline-block;
   font-family: Trebuchet MS;
   color: #A6A6A6;
   margin: 6%
+  text-transform: none;
   opacity: 0.0;
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
