@@ -11,12 +11,12 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: cornflowerblue;
+  background: black;
   border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: black;
+  background: cornflowerblue;
 }
 
 ::-o-scrollbar {
@@ -28,12 +28,12 @@ html {
 }
 
 ::-o-scrollbar-thumb {
-  background: cornflowerblue;
+  background: black;
   border-radius: 8px;
 }
 
 ::o-scrollbar-thumb:hover {
-  background: black;
+  background: cornflowerblue;
 }
 
 ::-moz-scrollbar {
@@ -45,12 +45,12 @@ html {
 }
 
 ::-moz-scrollbar-thumb {
-  background: cornflowerblue;
+  background: black;
   border-radius: 8px;
 }
 
 ::-moz-scrollbar-thumb:hover {
-  background: black;
+  background: cornflowerblue;
 }
 
 body {
