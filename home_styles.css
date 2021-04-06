@@ -19,6 +19,40 @@ html {
   background: black;
 }
 
+::-o-scrollbar {
+  width: 10px;
+}
+
+::-o-scrollbar-track {
+  background: rgb(0,0,0,0);
+}
+
+::-o-scrollbar-thumb {
+  background: cornflowerblue;
+  border-radius: 8px;
+}
+
+::o-scrollbar-thumb:hover {
+  background: black;
+}
+
+::-moz-scrollbar {
+  width: 10px;
+}
+
+::-moz-scrollbar-track {
+  background: rgb(0,0,0,0);
+}
+
+::-moz-scrollbar-thumb {
+  background: cornflowerblue;
+  border-radius: 8px;
+}
+
+::-moz-scrollbar-thumb:hover {
+  background: black;
+}
+
 body {
   margin: 0;
   background-color: #2a2828;
