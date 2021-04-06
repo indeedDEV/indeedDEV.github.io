@@ -11,13 +11,13 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: black;
-  opacity: 0.1;
+  color: black;
+  opacity: 0.4;
   border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: black;
+  color: black;
   opacity: 1;
 }
 
