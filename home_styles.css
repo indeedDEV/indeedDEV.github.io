@@ -35,6 +35,9 @@ h3 {
   font-family: Trebuchet MS;
   color: #A6A6A6;
   margin: 6%
+  opacity: 0.0;
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
 }
 
 p {
@@ -99,4 +102,27 @@ span {
   color: #770028;
 }
 
-                
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
