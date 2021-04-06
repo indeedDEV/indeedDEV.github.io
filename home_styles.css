@@ -11,7 +11,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(0,0,0,0.4);
+  background: cornflowerblue;
   border-radius: 8px;
 }
 
