@@ -58,19 +58,19 @@ img {
   text-decoration: none;
 }
 
-.a:visited {
+.link:visited {
   color: cornflowerblue;
   background-color: transparent;
   text-decoration: none;
 }
 
-.a:hover {
+.link:hover {
   color: white;
   background-color: transparent;
   text-decoration: underline;
 }
 
-.a:active {
+.link:active {
   color: dodgerblue;
   background-color: transparent;
   text-decoration: underline;
@@ -97,9 +97,9 @@ button:active {
   transform: translateY(4px);
 }
             
-mark {
+span {
   border-radius: 2px;
-  background-color: rgb(24,24,24,0.3);
+  background-color: rgb(0,0,0,0);
   color: #770028;
 }
 
