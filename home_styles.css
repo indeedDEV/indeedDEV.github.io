@@ -1,0 +1,118 @@
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(0,0,0,0)
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  margin: 0;
+  background-color: #2a2828;
+  overflow: overlay;
+}
+
+h2 {
+  font-family: Trebuchet MS;
+  color: #A6A6A6;
+  margin: 6%;
+}
+
+h3 {
+  font-family: Trebuchet MS;
+  color: #A6A6A6;
+  margin: 6%
+}
+
+p {
+  font-family: Trebuchet MS;
+  color: #A6A6A6;
+  margin: 6%;
+  line-height: 150%;
+}
+
+footer {
+  height: 200px;
+}
+
+img {
+  display: block;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.responsive {
+  width: "180";
+  height: auto;
+}
+
+.center {
+  display: block;
+  margin-right: auto;
+  width: 50%;
+}
+
+.a:link {
+  color: cornflowerblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.a:visited {
+  color: cornflowerblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.a:active {
+  color: dodgerblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+button {
+  border: 0;
+  width: 160px;
+  margin: 40px 10px 20px 10px;
+  background-color: rgb(0,0,0,0); 
+  color: cornflowerblue; p
+  adding: 12px 24px; font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 16px;
+}
+
+button:hover {
+  background-color: cornflowerblue;
+  color: black;
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+            
+mark {
+  border-radius: 2px;
+  background-color: rgb(24,24,24,0.3);
+  color: #770028;
+}
+
+                
