@@ -98,3 +98,17 @@ button:active {
 span {
   color: #770028;
 }
+
+.fade_in {
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
