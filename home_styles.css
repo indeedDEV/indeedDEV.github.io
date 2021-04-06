@@ -176,3 +176,7 @@ span {
         opacity: 1;
     }
 }
+
+form {
+  display: inline;
+}
