@@ -87,7 +87,7 @@ img {
 }
 
 img:hover {
-  transform: scale(1.4)
+  transform: scale(1.4);
 }
     
 
@@ -120,8 +120,9 @@ button {
   width: 160px;
   margin: 40px 10px 20px 10px;
   background-color: rgb(0,0,0,0); 
-  color: cornflowerblue; p
-  adding: 12px 24px; font-size: 16px; 
+  color: cornflowerblue; 
+  padding: 12px 24px; 
+  font-size: 16px; 
   cursor: pointer; 
   border-radius: 16px;
   transition: 0.3s ease-in-out;
@@ -130,7 +131,7 @@ button {
 button:hover {
   background-color: cornflowerblue;
   color: black;
-  transform: scale(1.4)
+  transform: scale(1.4);
 }
 
 button:active {
