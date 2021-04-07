@@ -176,6 +176,14 @@ span {
     }
 }
 
-blockquote {
+-webkit-blockquote {
+  border-left: 4px solid #ccc;
+}
+
+-moz-blockquote {
+  border-left: 4px solid #ccc;
+}
+
+-o-blockquote {
   border-left: 4px solid #ccc;
 }
