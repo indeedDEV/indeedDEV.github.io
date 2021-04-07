@@ -175,3 +175,7 @@ span {
         opacity: 1;
     }
 }
+
+blockquote {
+  border-left: 4px solid #ccc;
+}
