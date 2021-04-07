@@ -86,7 +86,7 @@ img {
 }
 
 img:hover {
-  transform: translate(0px, 20px)
+  transform: translate(0px, 20px) scale(1.4)
 }
     
 
