@@ -130,9 +130,12 @@ button:hover {
 }
 
 button:active {
-  box-shadow: 0 5px black;
+  /*box-shadow: 0 5px black;
   transform: translateY(4px);
-  outline:none;
+  outline:none;*/
+  background-color: cornflowerblue;
+  color: black;
+  transform: scale(1.4);
 }
             
 span {
