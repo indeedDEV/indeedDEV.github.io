@@ -57,6 +57,7 @@ body {
   margin: 0;
   background-color: #2a2828;
   overflow: overlay;
+  background-position: center;
 }
 
 h1 {
